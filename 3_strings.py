@@ -5,7 +5,7 @@ length : the actual no of strings
 negative index is length  -length 
 
 '''
-'''
+
 #String Slicing 
 name = "Tauseef"
 print(name)
@@ -29,16 +29,17 @@ print(sl.capitalize())
 print(sl.find("eef"))
 print(sl.replace("eef","fee"))
 
-'''
+
 
 #PG1 User Entered name followed by GAF using input() function
-'''
+
 name = input("Enter Your Name: ")
 print("Good After Noon,",name)
 
-'''
+
 #PG2 
 name = input("Enter Your Name: ")
 date = input("Enter date: ")
 letter = ("Dear " + name +  " You are Born on: " + date)
 print(letter)
+
